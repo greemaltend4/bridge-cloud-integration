@@ -1,7 +1,7 @@
 {
   "name": "bridge-cloud-integration",
   "version": "1.0.0",
-  "description": "Application d'intégration des services cloud",
+  "description": "Application for integrating cloud services",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
