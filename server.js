@@ -5,9 +5,9 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Bienvenue dans Bridge Cloud Integration!');
+  res.send('Welcome to Bridge Cloud Integration!');
 });
 
 app.listen(port, () => {
-  console.log(`Serveur en écoute sur le port ${port}`);
+  console.log(`Server listening on port ${port}`);
 });
